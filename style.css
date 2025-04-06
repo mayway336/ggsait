@@ -12,8 +12,8 @@ header {
 }
 
 .button {
-    background-color: #36bbce;
-    color: black;
+    background-color: #003aa6;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 15px;
     font-size: 24px;
@@ -22,7 +22,7 @@ header {
 }
 
 .button:hover {
-    background-color: orange;
+    background-color: rgb(0, 213, 255);
 }
 
 nav {
@@ -54,19 +54,21 @@ h1 {
 }
 
 h1::before {
-    content: url("star.svg");
-    width: 35px;
-    height: 35px;
+    content: url("thumb-up.svg");
+    width: 60px;
+    height: 60px;
     display: inline-block;
-    margin-right: 5px;
+    margin-right: 25px;
+    background-color: white;
 }
 
 h1::after {
-    content: url("star.svg");
-    width: 35px;
-    height: 35px;
+    content: url("thumb-up.svg");
+    width: 60px;
+    height: 60px;
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 15px;
+    background-color: white;
 }
 
 .post-text {
@@ -97,6 +99,7 @@ h1::after {
 .post:hover {
     background-color: #36bbce;
     color: white;
+    border: 10px dotted black;
 }
 
 .post:hover .article-but {
@@ -119,8 +122,8 @@ h1::after {
 }
 
 .post:hover .img-new {
-    border: 10px dotted orangered;
-    border-radius: 50%;
+    border: 10px double rgb(186, 63, 19);
+    border-radius: 75%;
 }
 
 .article-but {
@@ -159,8 +162,8 @@ h1::after {
 }
 
 .social img:hover {
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     position: relative;
     right: 15px;
 }
@@ -179,17 +182,17 @@ footer {
 }
 
 .address::before {
-    content: url("home.svg");
-    width: 30px;
-    height: 30px;
+    content: url("house.svg");
+    width: 50px;
+    height: 50px;
     display: inline-block;
     margin-right: 5px;
 }
 
 .tel::before {
-    content: url("phone.svg");
+    content: url("phone-left.svg");
     width: 30px;
-    height: 10px;
+    height: 30px;
     display: inline-block;
     margin-right: 5px;
 }
